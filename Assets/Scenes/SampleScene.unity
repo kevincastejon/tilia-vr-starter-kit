@@ -228,12 +228,12 @@ PrefabInstance:
         type: 3}
       propertyPath: forwardOffset
       value: 
-      objectReference: {fileID: 451122358}
+      objectReference: {fileID: 0}
     - target: {fileID: 1829750917173539401, guid: 01193696c843f354990981f4ab90e660,
         type: 3}
       propertyPath: rotationPivot
       value: 
-      objectReference: {fileID: 451122358}
+      objectReference: {fileID: 0}
     - target: {fileID: 3771861057661900665, guid: 01193696c843f354990981f4ab90e660,
         type: 3}
       propertyPath: m_Name
@@ -3254,7 +3254,7 @@ PrefabInstance:
         type: 3}
       propertyPath: rotationPivot
       value: 
-      objectReference: {fileID: 451122358}
+      objectReference: {fileID: 0}
     - target: {fileID: 2946027897230228094, guid: 28c5a99939782dd44ac0dee4e40054c4,
         type: 3}
       propertyPath: horizontalAxis
