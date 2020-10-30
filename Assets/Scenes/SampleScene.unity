@@ -316,7 +316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &62202836
 Transform:
   m_ObjectHideFlags: 0
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea5ce53bcbc3fd48a9a5e92b8609e1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VRSimulator: 1
+  VRSimulator: 0
 --- !u!1 &248955313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,7 +2141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &932052406
 Transform:
   m_ObjectHideFlags: 0
@@ -4415,7 +4415,7 @@ PrefabInstance:
         type: 3}
       propertyPath: forwardOffset
       value: 
-      objectReference: {fileID: 451122358}
+      objectReference: {fileID: 1253932596}
     - target: {fileID: 2946027897230228094, guid: 28c5a99939782dd44ac0dee4e40054c4,
         type: 3}
       propertyPath: rotationPivot
