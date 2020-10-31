@@ -19,7 +19,6 @@ public class LaneScaler : MonoBehaviour
 
     public void Scale(Single value)
     {
-
-        //transform.localScale = new Vector3(1, value, 1);
+        transform.localScale = new Vector3(1, value, 1);
     }
 }
