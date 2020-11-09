@@ -15,6 +15,6 @@ public class Gun : MonoBehaviour
     public void Fire()
     {
         GameObject bullet = Instantiate(bulletPrefab, spawnPoint.position, spawnPoint.rotation);
-        bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward * 1, ForceMode.Impulse);
+        bullet.GetComponentInChildren<Rigidbody>().AddRelativeForce(Vector3.forward * 1, ForceMode.Impulse);
     }
 }
