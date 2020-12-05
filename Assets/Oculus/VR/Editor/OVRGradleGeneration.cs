@@ -91,17 +91,17 @@ public class OVRGradleGeneration
 
 	public void OnPreprocessBuild(BuildReport report)
 	{
-#if UNITY_ANDROID && !(USING_XR_SDK && UNITY_2019_3_OR_NEWER)
-		// Generate error when Vulkan is selected as the perferred graphics API, which is not currently supported in Unity XR
-		if (!PlayerSettings.GetUseDefaultGraphicsAPIs(BuildTarget.Android))
-		{
-			GraphicsDeviceType[] apis = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android);
-			if (apis.Length >= 1 && apis[0] == GraphicsDeviceType.Vulkan)
-			{
-				throw new BuildFailedException("The Vulkan Graphics API does not support XR in your configuration. To use Vulkan, you must use Unity 2019.3 or newer, and the XR Plugin Management.");
-			}
-		}
-#endif
+//#if UNITY_ANDROID && !(USING_XR_SDK && UNITY_2019_3_OR_NEWER)
+//		// Generate error when Vulkan is selected as the perferred graphics API, which is not currently supported in Unity XR
+//		if (!PlayerSettings.GetUseDefaultGraphicsAPIs(BuildTarget.Android))
+//		{
+//			GraphicsDeviceType[] apis = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android);
+//			if (apis.Length >= 1 && apis[0] == GraphicsDeviceType.Vulkan)
+//			{
+//				throw new BuildFailedException("The Vulkan Graphics API does not support XR in your configuration. To use Vulkan, you must use Unity 2019.3 or newer, and the XR Plugin Management.");
+//			}
+//		}
+//#endif
 
 		buildStartTime = System.DateTime.Now;
 		buildGuid = System.Guid.NewGuid();
