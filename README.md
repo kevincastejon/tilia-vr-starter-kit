@@ -1,7 +1,6 @@
 # tilia-vr-starter-kit
 
-Simple example implementing some [Tilia](https://github.com/ExtendRealityLtd)'s features
-
+Simple example implementing some [Tilia](https://github.com/ExtendRealityLtd)'s features<br/>
 (Setup is ready to play for Oculus, you can use other camera rigs but you'll have to bind some inputs)
 
 Features implemented:
