@@ -14,6 +14,5 @@ TODO:
 
 -Implement SpatialSimulator<br/>
 -Implement OpenVR camera rig for cross device usage<br/>
--Implement UI example
-
+-Implement UI example<br/>
 -Clean DistanceActivator extension feature and create TouchActivator extension feature
